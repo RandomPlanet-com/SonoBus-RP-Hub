@@ -16,8 +16,13 @@ password; then the hub is running. The window has Status, Settings and Log tabs.
 
 ## Running a hub on Linux
 
-For Ubuntu 20.04 or newer or Debian 11 or newer, on 64-bit Intel/AMD or ARM. Unpack the download and run
-`sudo ./install.sh`. It checks the server, asks for a group name and passwords, opens the server's own firewall, and
+For Ubuntu 20.04 or newer or Debian 11 or newer, on 64-bit Intel/AMD or ARM:
+
+    curl -LJO https://randomplanet.com/download/sonobus-rp-hub-linux
+    tar xzf SonoBus-RP-Hub-Linux-*.tar.gz
+    cd sonobus-hub && sudo ./install.sh
+
+The installer checks the server, asks for a group name and passwords, opens the server's own firewall, and
 starts the hub as the `sonobus-hub` service. It then prints the public address, the outside port check result and the
 web page address.
 
