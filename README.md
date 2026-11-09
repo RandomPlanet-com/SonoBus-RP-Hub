@@ -49,5 +49,5 @@ server handles more rooms; latency stays best on dedicated or bare-metal CPUs.
 
 ## License
 
-GNU General Public License version 3. Third-party notices: `LICENSES-HUB.txt` in the
+Copyright (C) 2026 Jason Buecker (Random Planet). GNU General Public License version 3. Third-party notices: `LICENSES-HUB.txt` in the
 [SonoBus-RP](https://github.com/RandomPlanet-com/SonoBus-RP) repository.
